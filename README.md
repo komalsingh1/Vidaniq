@@ -10,23 +10,10 @@
 **A full-stack, production-ready D2C skincare e-commerce platform built with Next.js 14.**  
 Science-backed, Ayurvedic-inspired skincare. Personalized. Transparent. Clean.
 
-[Live Demo](komalsingh1.github.io/Vidaniq/) · [View Repo](https://github.com/komalsingh1/D2C-Skincare-Website-Vidaniq)
+[Live Demo](https://komalsingh1.github.io/Vidaniq/) · [View Repo](https://github.com/komalsingh1/D2C-Skincare-Website-Vidaniq)
 
 </div>
 
----
-
-## 📸 Screenshots
-
-| Homepage | Product Listing | Product Detail |
-|----------|----------------|----------------|
-| Hero + Trust Strip + Shop by Concern | Filters + Personalization | Ingredients + Reviews + FAQ |
-
-| Skin Quiz | Cart | Checkout |
-|-----------|------|----------|
-| 5-Step Onboarding | Upsells + Coupon | 4-Step Flow |
-
----
 
 ## ✨ Features
 
@@ -82,121 +69,7 @@ Science-backed, Ayurvedic-inspired skincare. Personalized. Transparent. Clean.
 
 ---
 
-## 📁 Project Structure
 
-```
-vidaniq/
-├── src/
-│   ├── app/
-│   │   ├── page.tsx                    # Homepage
-│   │   ├── layout.tsx                  # Root layout (Navbar, Footer, Quiz Modal, Cart Sidebar)
-│   │   ├── globals.css                 # Global styles + Tailwind
-│   │   ├── products/
-│   │   │   ├── page.tsx               # Product Listing Page (PLP)
-│   │   │   └── [slug]/page.tsx        # Product Detail Page (PDP)
-│   │   ├── cart/page.tsx              # Cart page
-│   │   └── checkout/page.tsx          # Checkout flow
-│   │
-│   ├── components/
-│   │   ├── layout/
-│   │   │   ├── Navbar.tsx             # Sticky nav with dropdown + mobile drawer
-│   │   │   └── Footer.tsx             # Footer with links, newsletter, trust badges
-│   │   ├── home/
-│   │   │   ├── HeroSection.tsx        # Personalized / generic hero
-│   │   │   ├── TrustStrip.tsx         # Scrolling trust indicators
-│   │   │   ├── QuizBanner.tsx         # Quiz CTA banner
-│   │   │   ├── ShopByConcern.tsx      # 4 concern cards
-│   │   │   ├── BestsellersSection.tsx # Product grid
-│   │   │   ├── IngredientEducation.tsx# Interactive ingredient explorer
-│   │   │   ├── RoutineBundles.tsx     # Kit cards
-│   │   │   ├── SocialProof.tsx        # Stats + UGC + reviews
-│   │   │   ├── BrandStory.tsx         # Brand narrative section
-│   │   │   ├── BlogSection.tsx        # Blog preview cards
-│   │   │   └── StickyCTA.tsx          # Mobile sticky bottom bar
-│   │   ├── quiz/
-│   │   │   └── SkinQuizModal.tsx      # 5-step quiz modal
-│   │   ├── cart/
-│   │   │   └── CartSidebar.tsx        # Slide-in cart drawer
-│   │   ├── pdp/
-│   │   │   └── PDPClient.tsx          # Full product detail client component
-│   │   └── ui/
-│   │       ├── ProductCard.tsx        # Product card (quick add, wishlist, badges)
-│   │       └── StarRating.tsx         # Fractional star rating
-│   │
-│   └── lib/
-│       ├── types.ts                   # TypeScript interfaces
-│       ├── store.ts                   # Zustand: cart + skin profile stores
-│       ├── utils.ts                   # cn(), formatPrice(), truncate()
-│       └── data/
-│           ├── products.ts            # 8 products with full data
-│           ├── reviews.ts             # Customer reviews
-│           ├── bundles.ts             # Routine kits
-│           └── blog.ts                # Blog posts
-│
-├── tailwind.config.ts                 # Custom colors (sage, cream, brand)
-├── postcss.config.mjs
-├── next.config.mjs
-└── tsconfig.json
-```
-
----
-
-## 🎨 Design System
-
-### Colors
-| Token | Hex | Usage |
-|-------|-----|-------|
-| `sage-600` | `#3f6540` | Primary buttons, accents |
-| `sage-700` | `#345135` | Navbar, footer |
-| `cream-50` | `#fdfcf8` | Page background |
-| `cream-100` | `#faf5ea` | Card backgrounds |
-| `amber-400` | `#f59e0b` | Star ratings |
-
-### Typography
-- **Headings / Hero:** `Playfair Display` (serif) — elegant, premium feel
-- **Body / UI:** `Inter` (sans-serif) — clean and readable
-
-### Key Utility Classes
-```css
-.btn-primary      /* Sage green filled CTA */
-.btn-secondary    /* Sage green outlined CTA */
-.card             /* White rounded card with shadow */
-.section-title    /* Playfair Display h2 */
-.badge            /* Small label chip */
-.input            /* Form input with focus ring */
-```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+ and npm
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/komalsingh1/D2C-Skincare-Website-Vidaniq.git
-cd D2C-Skincare-Website-Vidaniq
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Build for Production
-
-```bash
-npm run build
-npm start
-```
-
----
 
 ## 🧪 Coupon Codes (for testing)
 
@@ -245,8 +118,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-Made with ❤️ in India · Built with [Next.js](https://nextjs.org/) · Styled with [Tailwind CSS](https://tailwindcss.com/)
-
+Made with ❤️ in India ·
 ⭐ **Star this repo if you found it useful!**
 
 </div>
