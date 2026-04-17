@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git)",
+      "Bash(export PATH=\"$PATH:/opt/homebrew/bin:/usr/local/bin\")",
+      "Read(//opt/homebrew/**)",
+      "Read(//Users/kode/.volta/**)",
+      "Read(//Users/kode/**)",
+      "Read(//Users/kode/n/**)",
+      "Read(//Users/kode/Library/**)",
+      "Read(//Users/kode/.bun/**)",
+      "Bash(mdfind -name node)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(ls /usr/local/bin /opt/homebrew/bin ~/.nvm/versions/node/*/bin)",
+      "Bash(mdfind \"kMDItemDisplayName == 'node'\")",
+      "Bash(mdfind \"kMDItemDisplayName == 'npm'\")",
+      "Bash(/Applications/Cursor.app/Contents/Resources/app/resources/helpers/node -p process.version)",
+      "Bash(/Applications/Cursor.app/Contents/Resources/app/resources/helpers/node -e 'const fs=require\\('\\\\''fs'\\\\''\\); const p=require\\('\\\\''path'\\\\''\\); const b=p.join\\(p.dirname\\(process.execPath\\)\\); console.log\\(fs.readdirSync\\(b\\)\\);')",
+      "Bash(/Applications/Cursor.app/Contents/Resources/app/resources/helpers/node -e 'console.log\\(process.execPath\\)')",
+      "Bash(/Applications/Cursor.app/Contents/Resources/app/resources/helpers/node -e 'const b=require\\('\\\\''child_process'\\\\''\\); try{b.execFileSync\\('\\\\''npm'\\\\'',['\\\\''--version'\\\\''],{stdio:'\\\\''pipe'\\\\''}\\)}catch\\(e\\){console.log\\('\\\\''npm missing'\\\\''\\)}')",
+      "Bash(sudo mkdir:*)",
+      "Bash(mkdir -p /tmp/bin)",
+      "Bash(ln -sf /Applications/Cursor.app/Contents/Resources/app/resources/helpers/node /tmp/bin/node)",
+      "Bash(export PATH=\"/tmp/bin:$PATH\")",
+      "Bash(export NODE=\"/tmp/bin/node\")",
+      "Bash(node /tmp/package/bin/npm-cli.js install)",
+      "Bash(chmod +x /tmp/vidaniq-dev.sh)",
+      "Bash(ln -sf /tmp/package/bin/npx-cli.js /tmp/bin/npx)"
+    ]
+  }
+}

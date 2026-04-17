@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Vidaniq Next.js Dev Server",
+      "runtimeExecutable": "/Applications/Cursor.app/Contents/Resources/app/resources/helpers/node",
+      "runtimeArgs": ["/tmp/vidaniq-start.js"],
+      "port": 3000
+    }
+  ]
+}
